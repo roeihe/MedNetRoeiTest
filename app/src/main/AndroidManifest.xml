@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.davidpilnik.mednet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="24" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name=".Add_server" />
+        <activity android:name=".Calender" />
+        <activity android:name=".Show_med_meet" />
+        <activity android:name=".Add_med_meet" />
+        <activity android:name=".Find_Guard" />
+        <activity android:name=".MainOption"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_server"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.davidpilnik.mednet.Add_server">
+
+    <Button
+        android:text="Request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/request" />
+
+    <Button
+        android:text="home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/request"
+        android:layout_alignLeft="@+id/request"
+        android:layout_alignStart="@+id/request"
+        android:layout_marginTop="76dp"
+        android:id="@+id/home" />
+
+    <Button
+        android:text="ADD_GUARD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="74dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/add_guard" />
+
+    <TextView
+        android:text="notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home"
+        android:layout_alignLeft="@+id/request"
+        android:layout_alignStart="@+id/request"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/notification" />
+</RelativeLayout>
