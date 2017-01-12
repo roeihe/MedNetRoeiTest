@@ -107,5 +107,6 @@ public class Calender extends AppCompatActivity {
         i.putExtra("endTime", 20+ 60 * 60 * 1000);
         i.putExtra("title", "Sample Calender Event Android Application");
         startActivity(i);
+        i=null;
     }
 }
